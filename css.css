@@ -1,0 +1,85 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    font-family: 'Poppins, sans-serif';
+}
+
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 3rem 9%;
+    background: pink;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+body {
+    background: var(--bg-color);
+    font-family: "Poppins", sans-serif;
+}
+.logo {
+    font-size: 3rem;
+    font-weight: 800;
+    color: black;
+}
+
+.navbar a{
+    font-size: 1.8rem;
+    color: black;
+    margin-left: 4rem;
+
+}
+section {
+    min-height: 100vh;
+    padding: 5rem 9% 5rem;
+}
+ 
+
+.home {
+    display: flex;
+    align-items: center;
+}
+.home .home-content {
+    align-items: flex-start;
+    font-size: 6rem;
+    font-weight: 700;
+    line-height: 1.3;
+}
+.home-content h3 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+    font-weight: 700;
+}
+.home-content h1 {
+    font-size: 5rem;
+}
+.home-content p {
+    font-size: 1.8rem;
+    margin-bottom: 1rem;
+    font-weight: 500;
+}
+span {
+    color: pink;
+}
+.home-img {
+    border-radius: 50%;
+}
+.home-img img {
+    position: absolute;
+    top: 25%;
+    left: 1200px;
+    width: 32vw;
+    border-radius: 50%;
+    color: pink;
+}
+
+
+.social-icon a {
+    display: inline-flex;
+    font-size: 30%;
+    color: pink;
+}
