@@ -16,6 +16,7 @@
     display: flex;
     justify-content: space-between;
     align-items: flex-end;
+    z-index: 100;
 }
 body {
     background: var(--bg-color);
