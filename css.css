@@ -13,9 +13,9 @@
 }
 @media (max-width: 768px) {
     .header {
-        flex-direction: column;  /* Stack elements vertically */
-        align-items: flex-start; /* Align elements to the left */
-        justify-content: center; /* Center vertically */
+        flex-direction: column;  
+        align-items: flex-start; 
+        justify-content: center; 
         gap: 1rem;
     }
 
@@ -346,7 +346,7 @@ html::-webkit-scrollbar-thumb{
     .social-icon a {
         width: 6rem;
         height: 6rem; 
-        font-size: 5rem; /* Adjust for smaller screens */
+        font-size: 5rem; 
     }
 
     .aboutMe-img img {
@@ -424,7 +424,7 @@ html::-webkit-scrollbar-thumb{
 }
 @media (max-width: 768px) {
     .talent h1 {
-        font-size: 4rem; /* Smaller font size */
+        font-size: 4rem; 
     }
 
     .talent h3 {
@@ -434,13 +434,13 @@ html::-webkit-scrollbar-thumb{
     }
 
     .talent-container {
-        grid-template-columns: 1fr; /* Single column layout */
+        grid-template-columns: 1fr; 
         gap: 1.5rem;
     }
 
     .talent-box {
-        height: auto; /* Let height adjust based on content */
-        margin-bottom: 50px; /* Reduce margin between boxes */
+        height: auto; 
+        margin-bottom: 50px;
     }
 
     .talent-info h4 {
@@ -453,8 +453,8 @@ html::-webkit-scrollbar-thumb{
     }
 
     .talent-info img {
-        width: 50vw; /* Adjust image size */
-        height: auto; /* Maintain aspect ratio */
+        width: 50vw; 
+        height: auto; 
     }
 }
 /* favorite */
@@ -513,19 +513,19 @@ html::-webkit-scrollbar-thumb{
     }
 
     .container img {
-        width: 60%; /* Small size initially */
+        width: 60%;
         height: auto;
         object-fit: cover;
         border-radius: 15px;
         border: 5px solid var(--main-color);
-        transition: all 0.5s ease; /* Smooth transition effect */
+        transition: all 0.5s ease; 
         filter: grayscale(100%) opacity(50%);
         cursor: pointer;
     }
 
-    .container img:active, /* When clicked on */
-    .container img:hover { /* Or hovered */
-        width: 90%; /* Image grows larger */
+    .container img:active, 
+    .container img:hover { 
+        width: 90%; 
         filter: grayscale(0%) opacity(100%);
         filter: drop-shadow(0 0 25px var(--main-color));
     }
@@ -537,7 +537,7 @@ html::-webkit-scrollbar-thumb{
 .schoolProject h1{
     display: flex;
     justify-content: center;
-    font-size: 7rem; /* or any other size, e.g., 24px, 1.5em */
+    font-size: 7rem; 
     font-weight: 1000;
     color: var(--main-color);
     text-align: center;
@@ -604,7 +604,7 @@ html::-webkit-scrollbar-thumb{
 }
 @media (max-width: 768px) {
     .schoolProject h1 {
-        font-size: 4rem; /* Smaller heading for mobile */
+        font-size: 4rem;
     }
 
     .schoolProject h3 {
@@ -613,22 +613,22 @@ html::-webkit-scrollbar-thumb{
     }
 
     .project-container {
-        grid-template-columns: 1fr; /* Single column layout */
+        grid-template-columns: 1fr; 
         gap: 2rem;
-        left: 0; /* Remove the left offset */
+        left: 0; 
     }
 
     .project-box {
-        width: 90%; /* Full width on mobile */
+        width: 90%; 
         height: auto;
-        margin: 0 auto; /* Center the box */
+        margin: 0 auto; 
         border-radius: 20px;
     }
 
     .project-info img {
         position: relative;
         left: 40px;
-        width: 80%; /* Make the image fully responsive */
+        width: 80%; 
         height: auto;
         margin-bottom: 50px;
     }
@@ -644,13 +644,13 @@ html::-webkit-scrollbar-thumb{
     }
 
     .project-icon {
-        flex-direction: row; /* Icons remain in a row */
+        flex-direction: row; 
         gap: 1rem;
         margin-top: 1rem;
     }
 
     .project-icon a {
-        width: 4rem; /* Smaller icons */
+        width: 4rem; 
         height: 4rem;
         font-size: 2.5rem;
     }
@@ -715,33 +715,33 @@ footer .portfolio{
 }
 @media (max-width: 768px) {
     .footer {
-        padding: 20px 0; /* Reduce padding on smaller screens */
+        padding: 20px 0; 
     }
 
     .footer .social a {
-        width: 36px;  /* Smaller social icons */
+        width: 36px;  
         height: 36px;
         line-height: 36px;
         font-size: 20px;
-        margin: 0 5px; /* Reduce spacing */
+        margin: 0 5px; 
     }
 
     .footer ul {
-        font-size: 16px; /* Reduce font size for list items */
+        font-size: 16px; 
     }
 
     .footer ul li {
-        padding: 0 10px; /* Adjust spacing between items */
-        display: block;  /* Stack items vertically */
-        margin-bottom: 10px; /* Add space between items */
+        padding: 0 10px; 
+        display: block; 
+        margin-bottom: 10px; 
     }
 
     .footer ul li a {
-        font-size: 14px; /* Smaller font for links */
+        font-size: 14px; 
     }
 
     footer .portfolio {
         margin-top: 30px;
-        font-size: 14px; /* Reduce text size */
+        font-size: 14px; 
     }
 }
